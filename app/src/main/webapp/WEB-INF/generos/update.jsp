@@ -12,10 +12,10 @@
             <input type="hidden" name="id" value="${genero.id}" />
             <div>
                 <label class="form-label">Nome:</label>
-                <input type="text" name="nome" value="${genero.nome}" class="form-contrl"/>
+                <input type="text" name="nome" value="${genero.nome}" class="form-control"/>
             </div>
             <a href="/generos/list" class="btn btn-secondary">Voltar</a>
-            <button type="submit" class="btn btn-sucess">Salvar</button>
+            <button type="submit" class="btn btn-success">Salvar</button>
         </form>
     </body>
 </html>
